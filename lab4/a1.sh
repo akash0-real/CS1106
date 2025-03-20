@@ -1,5 +1,5 @@
-mkdir shell-backup
-
-cp *.sh shell-backup
-
-tar -cf shell-backup.tar shell-backup
+mkdir ~/Documents/backup
+cp *.c ~/Documents/backup/
+cd ~/Documents
+tar -czf backup.tar.gz backup
+rm -rf ~/Documents/backup
